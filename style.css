@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Product{
+    background-color: #FFFFFF;
+    max-width: 1411px;
+    height: 777px;
+    Padding :11.5px 23px;
+}
+
+.Card{
+
+    background-color: #e2e2e2;
+    max-width: 1359px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    border: 1px;
+    border-radius: 8px;
+}
+
+.Card__1{
+    background-color: #e6e8ec;
+    max-width: 259px;
+    height: 367px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.Card__1 > img {
+    width: 257.98px;
+    height: 189.99px;
+    padding: 30px 41px;
+    background-color: #8792a9;
+    border-radius: 8pxd;
+}
+
+.Title{
+    width: 227px;
+    height: 79px;
+    margin-left: 15px;
+}
+
+.Label{
+    width: 127px;
+    height: 27px;
+    border-radius: 4px;
+    padding: 6px 8px;
+    gap: 8px;
+    background-color: #dfc2ee;
+    margin-bottom: 5px;
+}
+.Label :hover{
+    color: rgb(158, 145, 215);
+}
+.Label > p{
+    width: 111px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #52057B;
+}
+.Typography{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: sans-serif;
+}
+.Status{
+    width: 227px;
+    height: 22px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.Price{
+    width: 137px;
+    height: 22px;
+    gap: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-left: 15px;
+}
+.Status>img{
+    width: 20px;
+    height: 20px;
+    border-radius: 64px;
+}
+.Degree{
+    width: 24px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:19.36px ;
+    margin-top: 1px;
+}
+.Information{
+    width: 227px;
+    height: 17px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+
+
